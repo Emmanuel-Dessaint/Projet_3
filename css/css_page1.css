@@ -1,0 +1,28 @@
+#bloc-page{
+    margin: 0;
+    padding: 0; 
+}
+header{ 
+    font-size: 3em;
+    padding: 10px 0 10px 0;   
+    text-align: center;
+    border-bottom: outset;
+    border-width: 2px;
+}
+.image_du_haut img{
+    height:15em;
+    width:100%;
+    object-fit: cover;
+    
+}
+section{
+    background-color: #f0ebeb;
+    border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+    margin-top: -50px;
+}
+.titre_principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
